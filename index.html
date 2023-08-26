@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <script src="https://kit.fontawesome.com/4ea6e3ab0b.js" crossorigin="anonymous"></script> -->
+
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/4fba1ad90b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <!-- <div class="container123"></div> -->
+        <nav>
+            <img src="GM_Logo.jpg" alt="logo is not loading" class="logo">
+            <!-- <img src="logo_transparent.png" alt="logo is not loading" class="logo"> -->
+
+            
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <img src="moon.png" id="icon">
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    <!-- <img src="miine_newbg.jpg" class="my-bg"> -->
+
+        <div class="header-text" data-aos="fade-right">
+            <!-- <p>UI/UX Designer</p> -->
+            <div>
+                <h1>Hi, I'm <span>Gargi Mahashay</span><br>from Delhi, India.</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container" >
+        <div class="row">
+            <div class="about-col-1" data-aos="fade-left">
+            <!-- <div class="about-col-1"> -->
+            
+                <div class="slide">
+                    <img src="asd_1.jpg" alt="sorry unable to load, please try once again...">
+                </div>
+                <!-- 
+                <div class="slide">
+                    <img src="asd10.jpg" alt="">
+                </div>
+                 -->
+                <!-- <div class="slide"> -->
+                    <!-- <img src="asd (5).jpg" alt=""> -->
+                <!-- </div> -->
+                <!--  
+                <div class="slide">
+                    <img src="asd (10).jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="asd (9).jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="asd (4).jpg" alt="">
+                </div>
+                -->
+            </div>
+
+            <div class="about-col-2" data-aos="fade-right">
+                <h1 class="sub-title">About Me</h1>
+                <p><br>A talented software engineer who is passionate about empowering 
+                    users and stimulating innovation. Having a solid background in computer 
+                    science and a commitment to continual learning, I take on challenges, 
+                    design transformational experiences, and guarantee code scalability. 
+                    I'm committed to creating useful products that improve people's lives,
+                     and I excel at working in teams and effectively communicating with 
+                     non-technical people.
+                </p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('position of responsibility')">Achievements</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>C, C++, Python, HTML, CSS, JavaScript</li>
+                        <li><span>Database Management</span><br>MySQL, SQL</li>
+                        <li><span>Software and Libraries</span><br>Numpy, Pandas, Matplotlib, Tensorflow, Pyautogui, YOLO, OpenCV, Microsoft Office</li>
+                        <li><span>Soft Skills</span><br>Leadership, Team Work, Effective Communication Skills, Adaptability, Problem Solving, Business Analytics Skills</li>
+
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="position of responsibility">
+                    <ul>
+                        <!-- <li><span>Campus Ambassador, Tryst-IIT DELHI(tech-fest)</span><br>Increased the awareness of the programme in my university
+                            on time that suited my schedule<br>                            
+                            </li>
+                            <li><span>Campus Ambassador, IIM-BANGALORE(Entrepreneurship event)</span><br>Increased the awareness of the programme in my university
+                                on time that suited my schedule<br>Learn some Leadership , organizational skills and problem
+                                solving skills
+                            </li> -->
+
+                            <li><span> Engineering Virtual Program Goldman Sachs</span>                         
+                            </li>
+                            <a href="https://drive.google.com/file/d/1yKqiVexNGGhzdtgUY3cu0upXg0aI01qt/view" target="_blank">Certificate</a>
+                            
+                            <li><span>  Software Engineering Virtual Internship Experience JPMorgan Chase Co.</span>                         
+                            </li>
+                            <a href="https://drive.google.com/file/d/1SN4dCtTxUlH57AKd1w8DYteuX1vlz1Lm/view" target="_blank">Certificate</a>
+
+                            <li><span>  Certificate of Completion : Explainable Al with Python, Udemy</span>                         
+                            </li>
+                            <a href="https://drive.google.com/file/d/1ZGeQSp6pqM3VeW6lvWmvlPdUcQZbew5O/view?usp=sharing" target="_blank">Certificate</a>
+
+                            <li><span>  Google Data Analytics Professional Certificate, Coursera</span>                         
+                            </li>
+                            <a href="https://drive.google.com/file/d/15BYTfqoXT6EQM0B7qb9wJzQ7UsWamVmC/view?usp=sharing" target="_blank">Certificate</a>
+
+                    </ul>
+                </div>
+
+
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020 - Current</span><br>B.E in Computer Engineering at THAPAR INSTITUTE OF ENGINEERING AND TECHNOLOGY(TIET)</li>
+                        <li><span>2018-2020</span><br>Higher Secondary Education from St.Joseph's Academy, Ghaziabad</li>
+                        <li><span>2017-2018</span><br>Secondary Education from St.Joseph's Academy, Ghaziabad</li>
+
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+
+<div id="projects">
+    <div class="container" data-aos="zoom-in">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div data-aos="flip-left">
+                <img src="ml.png" alt="" class="font-links" >
+                <!-- <i class="fa-solid fa-code"></i> -->
+                <h2>Vehicle Detection</h2>
+                <p>Detect and Count different Vechiles from any image or Video. <br><br>
+                    Extract number plate of Vechiles and also check Traffic Violation. <br></p>
+                <a href="https://github.com/gargimahashay/Vehicle-Detection" target="_blank">Learn more</a>
+            </div>
+
+            <div data-aos="flip-right">
+                <!-- <i class="fa-solid fa-crop"></i> -->
+                <img src="coding.png" alt="" class="font-links">
+
+                <h2>Automatic Smile Capturer</h2>
+                <p>Detect face and detect lips when it is smile position specific. <br><br>
+                    Click the picture. <br> <br>
+                    Save the Image with specific format and with date and time stamps. <br>
+                    </p>
+                <a href="https://github.com/gargimahashay/Smile-Capture" target="_blank">Learn more</a>
+            </div>
+
+            <div data-aos="flip-left">
+                <!-- <i class="fa-brands fa-app-store"></i> -->
+                <img src="python_org.png" alt="" class="font-links" >
+
+                <h2>Grey-Scale Conversion</h2>
+                <p>Convert any image or video into greyscale as much needed. <br><br>
+                    Show image in different sizes without affecting the size of pixels. <br><br>
+                    Increase the playback speed of any video. <br></p>
+                <a href="https://github.com/gargimahashay/Grey-Scale" target="_blank">Learn more</a>
+            </div>
+
+            <div data-aos="flip-right">
+                <!-- <i class="fa-brands fa-app-store"></i> -->
+                <img src="learning.png" alt="" class="font-links" >
+
+                <h2>Perfect Match</h2>
+                <p>First user select his or her image who wants perfect match. <br><br>
+                    We convert image into hash code. <br><br>
+                    The difference between user and from our database images
+                    minimum we show the final image together in one frame <br></p>
+                <a href="https://github.com/gargimahashay/Hook-ups" target="_blank">Learn more</a>
+            </div>
+
+            <div data-aos="flip-left">
+                <!-- <i class="fa-brands fa-app-store"></i> -->
+                <img src="ml3.png" alt="" class="font-links" >
+
+                <h2>Drowsiness Detection</h2>
+                <p>Detect the drowsiness of driver by detecting blinking of both eyes. <br><br>
+                    When user don't open eyes for some seconds. <br><br>
+                    The beep sound start playing to give a alert. <br></p>
+                <a href="https://github.com/gargimahashay/Drowsiness" target="_blank">Learn more</a>
+            </div>
+
+            <div data-aos="flip-right">
+                <!-- <i class="fa-brands fa-app-store"></i> -->
+                <img src="ml2.png" alt="" class="font-links" >
+
+                <h2>Images Classification</h2>
+                <p>First we download the dataset and train our machine on that model. <br><br>
+                    Then normalize it and validate it. <br><br>
+                    Finally check the accuracy on our test datasets. <br></p>
+                <a href="https://github.com/gargimahashay/Image-Classification" target="_blank">Learn more</a>
+            </div>
+
+            <div data-aos="flip-right">
+                <!-- <i class="fa-brands fa-app-store"></i> -->
+                <img src="opencv-removebg.png" alt="" class="font-links" >
+
+                <h2>OpenCV</h2>
+                <p>Here we perform some basic image processing functions of OpenCV. <br><br>
+                    Like Image Thresholding, Resizing, Reshaping, Mouse Operations etc. <br><br>
+                    <!-- Finally check the accuracy on our test datasets. <br></p> -->
+                <a href="https://github.com/gargimahashay/OpenCV-Projects" target="_blank">Learn more</a>
+            </div>
+            <div data-aos="flip-right">
+                <!-- <i class="fa-brands fa-app-store"></i> -->
+                <img src="ml3.png" alt="" class="font-links" >
+                <!-- <i class="fa-brands fa-chrome"></i> -->
+
+                <h2>Fitness 360</h2>
+                <p>Allow users to create personalized profiles where they can track their fitness goals, and progress over time.
+                    <br><br>
+                    To assist customers achieve fitness objectives, offer nutrition advice, meal planning, and healthy recipes. <br><br>
+                    <!-- Finally check the accuracy on our test datasets. <br></p> -->
+                <a href="https://github.com/gargimahashay/Fitness---360" target="_blank">Learn more</a>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<div id="results">
+    <div class="container" data-aos="zoom-in">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list" data-aos="zoom-in-up">
+            <div class="work">
+                <!-- <img src="mybg.jpeg" alt="unable to load!"> -->
+                <!-- <video autoplay src="vechile_detection.mp4"></video> -->
+
+                <video autoplay muted loop>
+                    <source src="vehicle_detection.mp4" type="video/mp4">
+                </video>
+
+                <div class="layer">
+                    <h3>Vehicle Detection</h3>
+                    <p>Detect and Count different Vechiles from any image or Video.</p>
+                    <a href="https://github.com/gargimahashay/Vehicle-Detection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+           
+            <div class="work">
+                <!-- <img src="out1.jpg" alt="unable to load!"> -->
+
+                <video autoplay muted loop>
+                    <source src="smile.mp4" type="video/mp4">
+                </video>
+
+
+                <div class="layer">
+                    <h3>Automatic Smile Capturer</h3>
+                    <p>Detect smile, Click picture and save the Image with specific format with date, time stamps.</p>
+                    <a href="https://github.com/gargimahashay/Smile-Capture" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <!-- <img src="out10.jpg" alt="unable to load!"> -->
+
+
+                <video autoplay muted loop>
+                    <source src="hookups.mp4" type="video/mp4">
+                </video>
+
+
+
+                <div class="layer">
+                    <h3>Perfect Match</h3>
+                    <p>Convert image into hash code then search image with minimum difference.</p>
+                    <a href="https://github.com/gargimahashay/Hook-ups" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <!-- <img src="out10.jpg" alt="unable to load!"> -->
+
+
+                <video autoplay muted loop>
+                    <source src="drows.mp4" type="video/mp4">
+                </video>
+
+
+
+                <div class="layer">
+                    <h3>Drowsiness Detection</h3>
+                    <p>Detect Drowsiness by detecting the blinking of both eyes.</p>
+                    <a href="https://github.com/gargimahashay/Drowsiness" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <!-- <img src="out10.jpg" alt="unable to load!"> -->
+
+
+                <video autoplay muted loop>
+                    <source src="image_classification.mp4" type="video/mp4">
+                </video>
+
+
+
+                <div class="layer">
+                    <h3>Images Classification</h3>
+                    <p>Classifies the images on the base of training model</p>
+                    <a href="https://github.com/gargimahashay/Image-Classification" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <!-- <img src="out10.jpg" alt="unable to load!"> -->
+
+
+                <video autoplay muted loop>
+                    <source src="combine_leftright.mp4" type="video/mp4">
+                </video>
+
+
+
+                <div class="layer">
+                    <h3>OpenCV</h3>
+                    <p>Image Processing Operations here it is left and right mouse operation.</p>
+                    <a href="https://github.com/gargimahashay/OpenCV-Projects" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <!-- <img src="out1.jpg" alt="unable to load!"> -->
+
+                <video autoplay muted loop>
+                    <source src="Fitness360.mp4" type="video/mp4">
+                </video>
+
+
+                <div class="layer">
+                    <h3>Fitness 360</h3>
+                    <p>Allow users to create personalized profiles where they can track their fitness goals, and progress over time.</p>
+                    <a href="https://github.com/gargimahashay/Fitness---360" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+
+        </div>
+        <a href="https://github.com/gargimahashay?tab=repositories" target="_blank" class="btn">See more</a>
+
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left" data-aos="fade-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <!-- <p><i class="fa-solid fa-paper-plane"></i>akshpreet2002@gmail.com</p> -->
+                <p><a href="mailto: gargimahashay@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></i>gargimahashay@gmail.com</a></p>
+
+                <br>
+                <!-- <p><i class="fa-solid fa-mobile"></i>+91-7206021151</p> -->
+                <p><a href="tel: +91-9999286102" target="_blank"><i class="fa-solid fa-mobile"></i>+91-9999286102</a></p>
+
+
+                <br><br>
+                <section class="socialmedia">
+                    <ul class="social-icons">
+                        <li data-color="#1877f2"><a href="https://www.facebook.com/gargi.mahashay" target="_blank" class="facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                        <li data-color="#25D366"><a href="https://wa.me/+91-9999286102" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a></li>
+                        <li data-color="#e4405f"><a href="https://www.instagram.com/gargi_mahashay/" target="_blank" class="instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                        <li data-color="#0A66C2"><a href="https://www.linkedin.com/in/gargi-mahashay-ba501a20a/" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li data-color="#171515"><a href="https://github.com/gargimahashay" target="_blank" class="github"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+    
+    
+    
+                        <!-- <a href="https://www.facebook.com/akshpreet.singh.5205/" target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a> -->
+                        <!-- <a href="https://wa.me/7206021151" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a> -->
+                        <!-- <a href="https://www.instagram.com/akshpreet_singh2002/" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a> -->
+                        <!-- <a href="https://www.linkedin.com/in/akaspreet-singh-285794203/" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin"></i></a> -->
+                        <!-- <a href="https://github.com/Akaspreet" target="_blank" class="github"><i class="fa-brands fa-github"></i></a> -->
+    
+                    </ul>
+    
+                </section>
+                <a href="Gargi Mahashay.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right" data-aos="fade-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+</script>
+
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx_cDEMmT161qGjOyZOrFfmsUymaM3LfwxUypXhoO0_Ry2Uje073nL6IK0KlyBuxrxf/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML =  "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+  <script>
+    var icon =  document.getElementById("icon");
+
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src = "light1.png";
+        }
+        else{
+            icon.src = "moon.png";
+        }
+    }
+  </script>
+  <!-- our aos data -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 300,
+        duration: 1000,
+    });
+  </script>
+
+
+  <script src="anime.min.js"></script>
+
+  <script>
+    const text = document.querySelector('.text');
+    text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>")
+
+    anime.timeline({
+        loop: true
+
+    })
+
+    .add({
+        targets: '.text span',
+        translateY: [-600, 0]
+    })
+  </script>
+  <script src="vanilla-tilt.min.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".social-icons li a"), {
+		max: 25,
+		speed: 400,
+        glare: true, 
+        "max-glare": 1,
+	});
+  </script>
+  <script>
+    let list = document.querySelectionAll('.social-icons li');
+    let bg = document.querySelector('.socialmedia');
+    list.forEach(elements => {
+        elements.addEventListener('mouseenter', function(event){
+            let color = event.target.getAttribute('data-color');
+            bg.style.backgroundColor = color;
+        })
+        elements.addEventListener('mouseleave', function(event){
+            bg.style.backgroundColor = white;
+        })
+    })
+  </script>
+
+</body>
+</html>
